@@ -8,6 +8,7 @@ target/
 /checkouts/
 cljs-test-runner-out/
 /src/scratch/
+/src/repl/
 .boot/
 .cpcache/
 cljs-build/

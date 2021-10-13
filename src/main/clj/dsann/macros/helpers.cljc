@@ -1,9 +1,10 @@
 (ns dsann.macros.helpers
  (:require
     [net.cgrand.macrovich :as macros])
- #?(:cljs (:require-macros
-           ; cljs must self refer macros
-           [dsann.macros.helpers :refer [assert-args]])))
+ #?(:cljs
+     (:require-macros
+      ; cljs must self refer macros
+      [dsann.macros.helpers :refer [assert-args]])))
 
 (macros/deftime
   (defmacro assert-args
